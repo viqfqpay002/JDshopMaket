@@ -1,0 +1,11 @@
+.search-result{
+    border-top: 3px solid #333333;
+    padding-top: 40px;
+}
+.search-result .title-info{
+    text-align: center;
+    font-size: 18px;
+}
+.search-result .title-info span{
+    color: red;
+}

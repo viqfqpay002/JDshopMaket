@@ -1,0 +1,121 @@
+@media all and (max-width: 990px) and (min-width: 320px){
+    .form-box{
+        width: 100% ;
+        margin-top: 60px !important;
+        padding-bottom:0 !important
+    }
+    .form-w{
+       width:100% !important;
+    }
+    .form-title{
+        height: auto;
+        margin-right:10px  ;
+        margin-left: 10px ;
+        padding-top: 30px ;
+        padding-bottom: 12px;
+        border-bottom:20px solid #333333 ;
+        border-image-source:url(../../image/mobile/login_bg@2x.png);
+        border-image-width:0  0 20px 100%;
+    }
+    .form-title li{
+        font-size: 1.33rem!important;
+        line-height: 14px !important;
+        color: #999999;
+    }
+    .form-title li+li{
+        border-left:1px solid #999999 ;
+    }
+    .activeTab{
+        color: #333333 !important;
+    }
+    .form-content{
+        padding: 0 10px !important;
+    }
+    .login-content{
+        display: block;
+    }
+    .login-content,.register-content{
+         float: none !important;
+    }
+    .form-content .input-group{
+        width: 100% !important;
+        padding-top: 20px !important;
+    }
+    .login-content label, .register-content label {
+        width: 100%;
+        position: relative;
+        font-size: 1.16rem;
+        font-weight: inherit;
+        padding-left:10px !important;
+    }
+    .login-content .forget-password{
+        width: auto !important;
+    }
+    .check label {
+       width: 18.4rem;
+    }
+    .register-content{
+        display: none;
+    }
+    .form-content label .link{
+        position: absolute;
+        right: 10px;
+        color: #999999;
+    }
+    .form-content .input-button{
+        padding: 23px 0 30px 0;
+    }
+    .form-content .link-more{
+        height: 38px !important ;
+        line-height: 38px ;
+        font-size: 1rem !important;
+    }
+    .form-content input[type="text"],.form-content input[type="password"],.form-content input[type="tel"]{
+        font-size:1rem !important;
+        height: 40px !important ;
+        line-height: 40px ;
+    }
+    .form-content input[type="text"],.form-content input[type="password"]{
+        width: 97%;
+        border: none;
+        padding: 0 0 0 10px  !important;
+        margin: 0 10px 0 0 !important;
+    }
+    .login-content .for-password{
+        right: 40px;
+    }
+    input[type="checkbox"]{
+        margin: 0 !important;
+        margin-left: 10px !important ;
+        width: 15px ;
+        height: 15px ;
+        background: none;
+        border: 1px solid #333333;
+    }
+    .fast-login{
+        padding-bottom: 40px ;
+    }
+    .w116{
+        height: 1px ;
+    }
+    .webchat{
+        width: auto;
+        text-align: center;
+    }
+    .webchat img{
+        margin: 0 30px;
+    }
+    .verification{
+        position: absolute;
+        right: 0;
+        top: -5px;
+    }
+    .form-content input[type="tel"]{
+        width: 12.6rem ;
+        border: none;
+        padding-left: 10px !important;
+    }
+    .footer{
+        margin: 0 !important;
+    }
+}

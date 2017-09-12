@@ -1,0 +1,158 @@
+.banner-img .banner-img-list{
+    width: 980px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-img .banner-img-list .banner-item{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.mini-banner-scroll{
+    padding-top: 15px;
+    height: 75px;
+}
+.mini-banner-scroll .scroll-box{
+    width: 533px;
+    height: 75px;
+    font-size: 24px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+.mini-banner-scroll .scroll-list{
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+}
+.mini-banner-scroll .scroll-box li{
+    width: 150px;
+    height: 73px;
+
+}
+.mini-banner-scroll  .scroll-box li{
+    display: inline-block;
+}
+.mini-banner-scroll  .scroll-box li img{
+    width: 100% ;
+}
+.mini-banner-scroll .scroll-list li:hover img{
+    border: 1px solid #333333;
+}
+.img-active{
+    border: 1px solid #333333;
+}
+.mini-banner-scroll .arrow {
+    position: absolute;
+    width: 11px ;
+    height: 23px;
+    top: 50%;
+    right: 5px;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.mini-banner-scroll .arrow.prev{
+    left: 5px;
+}
+.mini-banner-scroll .arrow img{
+    width: 100%;
+    height: 100%;
+}
+.mini-banner-scroll .icon-right{
+    float: right;
+}
+.mini-banner-scroll .match{
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    letter-spacing: 4px;
+    padding-left: 23px;
+   vertical-align: middle;
+    line-height: 75px;
+}
+.mini-banner-scroll .wechat{
+    display: inline;
+    margin-left: 30px;
+}
+.content{
+    padding-top: 60px;
+}
+.content .item{
+    padding-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.content .item .mini-info{
+    position: absolute;
+    width:11rem;
+    margin-top: 20px;
+}
+.content .mini-info h4{
+    font-size: 20px;
+    text-align: right;
+    line-height: 40px;
+    font-weight: 500;
+}
+.content .mini-info .link-more{
+   margin: 0;
+}
+.content .content-list-1{
+    height: 524px;
+}
+.content-list-1 .content-left .mini-info{
+    right: 85px;
+}
+.content-list-1 .content-right .mini-info{
+    right: 63px;
+    bottom: 193px;
+}
+.content  .content-left{
+    width: 470px;
+    float: left;
+    position: relative;
+}
+.content  .content-right{
+    width: 475px;
+    float: right;
+    position: relative;
+}
+.content-list-2 ,.content-list-4{
+    height: 320px;
+}
+.content-list-2 .mini-info{
+    left: 378px;
+    top: 60px;
+}
+.content-list-3{
+    height: 503px;
+}
+.content-list-3 .content-left .mini-info{
+    bottom: 53px;
+    left: 92px ;
+}
+.content-list-3 .content-right .mini-info{
+    top: 135px;
+    left: 57px;
+}
+.content-list-4 .mini-info{
+    top: 38px;
+    right: 250px;
+}
+.content-list-4 .mini-info h4 ,.content-list-4 .mini-info a{
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.content-list-5{
+    height: 545px;
+}
+.content-list-5  .mini-info{
+    right: 39px;
+}
+.content .mini-info .link:after{
+    height: 0
+}

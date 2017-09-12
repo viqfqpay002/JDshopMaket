@@ -1,0 +1,67 @@
+@media all and (max-width: 990px) and (min-width: 320px){
+    .w{
+        width: 100%;
+    }
+    .mini-w{
+        width: 100%;
+    }
+    .guide-right {
+        width: 100%;
+        padding-top: 4.6rem;
+    }
+    .guide-right .title {
+        height: auto !important;
+        line-height: 4.2rem !important;
+        font-size: 1.2rem !important;
+        padding:0
+    }
+    .banner-img  {
+        width: 100% !important;
+        height:auto !important;
+    }
+ .banner-img .big-img{
+      width: 100% !important;
+  }
+  .banner-img .logo-font{
+      width: 260px !important;
+      height: 93px !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform:translate(-50%, -50%);
+      -webkit-transform:translate(-50%, -50%);
+      -ms-transform:translate(-50%, -50%);
+  }
+  .product-logo{
+      width: 100%;
+      padding: 10px 0;
+  }
+  .product-logo .logo-box{
+      padding: 0 10px;
+  }
+  .product-logo img{
+      width: 100%;
+  }
+  .select-List{
+      width: 100%;
+      padding-top: 30px !important;
+  }
+  .select-title{
+      height: 40px !important;
+      background: #f6f6f6;
+      line-height: 40px ;
+      padding: 0 10px!important;
+  }
+  .select-List .select{
+      display: none;
+  }
+    .product-list-box .icon-list-hart{
+        display: none;
+    }
+    .doct-color{
+        display: none;
+    }
+    .select-List{
+        padding: 0;
+    }
+
+}

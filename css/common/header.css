@@ -1,0 +1,306 @@
+.head-nav{
+    width: 100%;
+    border-bottom: 1px solid #E1E1E1;
+    height: 50px;
+    padding-top: 10px;
+}
+.head-nav-left .tel ,.nav-left .news{
+    display: block;
+    float: left;
+}
+/* 左边 */
+.head-nav-left{
+    float: left;
+    width: 80%;
+}
+.head-nav-left .tel{
+    padding-right: 20px;
+}
+.tel .tel-p{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.tel .time{
+    color: #999;
+}
+.head-nav-left .news .news-itme span{
+    color: #FA0202;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.head-nav-left .news-itme{
+    line-height: 30px;
+}
+.myscroll{
+    height: 30px;
+    overflow: hidden;
+}
+.myscroll .news{
+    height: 30px;
+}
+.news li{
+    line-height: 30px;
+}
+
+/* 右边 */
+.head-nav-right{
+    float: right;
+}
+.head-nav-right .user-info .user {
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.user-info .user .link{
+    line-height: 14px;
+}
+.user-info li.user+li a {
+    border-left: 1px solid #333;
+    padding-left: 10px;
+
+}
+/* logo */
+.logo{
+    padding: 50px 0;
+}
+.logo img{
+    margin: auto;
+}
+/* nav */
+.nav{
+    padding-bottom: 21px;
+    position: relative;
+}
+.nav-box{
+    overflow: hidden;
+}
+.nav-list{
+    height: 60px;
+    float: left;
+}
+.nav-list .nav-item{
+    height: 100%;
+    float: left;
+    padding-right: 32px;
+    position: relative;
+}
+.nav-item a{
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.nav-item .link:hover{
+    color: #000;
+    font-weight: bold;
+}
+.nav-item .link:after{
+    height: 3px;
+}
+.nav-item:hover .icon-text ,.nav-item:focus .icon-text{
+    height: 3px;
+    background: #000;
+    animation: bottomIn 0.2s linear forwards;
+}
+.nav-item:hover .icon-arrow-down{
+    background:url("../../image/icon/nava_icon_up.png") no-repeat ;
+}
+
+.search-input{
+    float: right;
+}
+.search-input .search-text{
+    width: 224px;
+    line-height: 25px;
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+.nav-show{
+    position: absolute;
+    left:50%;
+    top: 265px;
+    transform:translate(-50%, 0);
+    -webkit-transform:translate(-50%, 0);
+    -ms-transform:translate(-50%, 0);
+    background: rgba(255,255,255,0.95);
+    z-index: 99999;
+    border: 1px solid #E1E1E1;
+}
+.nav-list-meun{
+    width: 1170px;
+    height: 371px;
+    padding: 50px 0;
+    display: none;
+    position: relative;
+}
+.nav-list-meun:nth-of-type(1):before,.nav-list-meun:nth-of-type(1):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:80px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(1):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun:nth-of-type(2):before,.nav-list-meun:nth-of-type(2):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:170px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(2):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun:nth-of-type(3):before,.nav-list-meun:nth-of-type(3):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:80px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(3):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun:nth-of-type(4):before,.nav-list-meun:nth-of-type(4):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:230px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(4):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun:nth-of-type(5):before,.nav-list-meun:nth-of-type(5):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:380px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(5):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun:nth-of-type(6):before,.nav-list-meun:nth-of-type(6):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:460px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(6):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun:nth-of-type(7):before,.nav-list-meun:nth-of-type(7):after{
+    content:"";
+    display:block;
+    border-width:11px;
+    position:absolute;
+    top: -22px;
+    left:540px;
+    border-style:solid dashed dashed;
+    border-color:transparent transparent #dddddd;
+    font-size:0;
+    line-height:0;
+}
+.nav-list-meun:nth-of-type(7):after{
+    top: -21px;
+    border-color: transparent transparent #FFFFFF;
+}
+.nav-list-meun .meun-list-box{
+    width: 743px;
+    padding-left: 50px;
+    float: left;
+    border-right: 1px solid #E1E1E1;
+}
+.nav-list-meun-3{
+    width: 852px;
+}
+.nav-list-meun-3 .meun-list-box{
+    width: 470px;
+}
+.nav-list-meun-4{
+    width: 993px;
+}
+.nav-list-meun-4 .meun-list-box{
+    width: 600px;
+}
+.nav-list-meun-4 .meun-item{
+    padding:0 50px 0 0;
+}
+.meun-list-box .meun-item{
+    height: 190px;
+    text-align: left;
+    float: left;
+    padding:0 50px 0 0;
+    line-height: 24px;
+}
+/* 调整nav-item间距 */
+.item_25{
+    margin-left: -24px;
+}
+.item_10{
+    margin-left: 10px;
+}
+.nav-list-meun:nth-of-type(2) .meun-item{
+    padding-right: 40px;
+}
+.nav-list-meun:nth-of-type(2) .item_25{
+    margin-left: 25px;
+}
+
+.meun-item h4{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+}
+.recommend img{
+    margin: 0 auto;
+}
+.recommend .recommend-info{
+    padding-top: 25px;
+    text-align: center;
+}
+.recommend-info h4{
+    font-size: 14px !important;
+    font-weight: 100;
+    line-height: 24px;
+}

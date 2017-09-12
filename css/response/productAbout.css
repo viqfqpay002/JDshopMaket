@@ -1,0 +1,159 @@
+@media all and (max-width: 990px) and (min-width: 320px) {
+    .product-about{
+        margin-top:10rem;
+    }
+    .product-about .banner{
+        height: 35rem !important;
+        margin: 0 !important;
+    }
+    .product-about .banner .banner-img{
+       max-height: 21.6rem!important;
+    }
+    .product-about .banner .banner-info{
+         width: 100% !important;
+         color: #fff;
+         font-size: 1rem !important;
+        top: 30rem !important;
+    }
+    .product-about .banner .b-info{
+        background-image:url("../../image/mobile/HUPPE_BG.png") ;
+        background-position: center 20px;
+        background-size:100% ;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #333333;
+    }
+    .product-about-content{
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .lf-t{
+        font-size: 3.6rem;
+        color: #333333;
+        letter-spacing: 2px;
+    }
+    .p-a-1{
+        margin-bottom: 3.4rem;
+        height:64rem !important;
+        position: relative;
+    }
+    .left-box{
+        position: absolute;
+        bottom: 0;
+    }
+    .right-box{
+        height: 31rem!important;
+        max-height: 31rem;
+        margin-top:1.4rem !important;
+        position: absolute;
+        top: 0;
+    }
+
+    .p-a-1 .container ,.p-a-2 .container,.p-a-3 .container,.p-a-4 .container{
+        width: inherit !important;
+    }
+    .p-a-2 .container{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .p-a-1 .p-a-1-left{
+       /* background-size: 80%  ;*/
+        height: auto !important;
+        overflow: inherit !important;
+        order: 2;
+    }
+    .p-a-1 .p-a-1-left .p-a-1-list{
+        font-size: .8rem !important;
+        line-height: 1.5rem;
+        top: 2.5rem;
+        margin-right: .8rem !important;
+    }
+    .p-a-1-left .p-a-1-list .item{
+        height: 4.8rem !important;
+        padding-bottom: .8rem !important;
+    }
+    .p-a-1-left .p-a-1-list .item:nth-of-type(2){
+        height: 2.4rem !important;
+    }
+    .p-a-1-left .item span{
+        font-size: 1.2rem;
+        top: 1.6rem;
+        left: -1.2rem !important;
+    }
+    .p-a-1-right img{
+        max-width: 90% ;
+   }
+    .p-a-2{
+        height: auto !important;
+    }
+    .p-a-2  img{
+        width: 100%;
+      position: inherit !important;
+    }
+    .p-a-2 .p-a-2-top .l2 img{
+        top: 0;
+        bottom: 0;
+    }
+    .p-a-3{
+        padding-top: 1rem !important;
+        margin: 0 -1.25rem;
+    }
+    .p-a-3 img{
+        width: 100%;
+    }
+    .p-a-4{
+        position: relative;
+        padding-top: 3.4rem !important;
+        height: 42.6rem !important;
+        overflow: hidden;
+    }
+    .p-a-4-b{
+        height: auto !important;
+    }
+   .p-a-4 img{
+       width: 100%;
+   }
+   .p-a-4 .info{
+       width: 50%;
+   }
+    .p-a-4 .img-left-1 .info {
+        top: 1.8rem !important;
+        left: 6.4rem !important;
+    }
+    .p-a-4 .img-right-1 .info {
+        bottom: 0.8rem !important;
+        left: -1rem !important;
+    }
+    .p-a-4 .img-right-2 {
+        top: 18.4rem;
+        right: 30px;
+    }
+    .p-a-4 .img-right-2 .info {
+        top: 2rem;
+        left: -6rem;
+    }
+    .p-a-4 .img-left-2 {
+        top: 30rem;
+        left: 8px;
+    }
+    .p-a-4 .img-left-2 .info {
+        top: -1rem;
+        left: 1.8rem;
+    }
+    .match{
+        height: auto;
+        padding: 3.4rem 0 4rem 0  !important;
+    }
+    .match .title{
+        margin: 0 .8rem;
+        font-size: 1.5rem !important;
+    }
+    .match .product-list-box .product-list .item{
+         margin: 0 !important;
+    }
+    .match .link{
+        font-size: 1.2rem;
+    }
+}
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .loading {
+            display: table;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #666;
+            z-index: 5;
+        }
+
+        .loading .progress {
+            width: 500px;
+            height: 500px;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            background: #66afe9;
+        }
+    </style>
+</head>
+<body>
+<div class="loading" id="loading">
+    <div class="progress" id="progress">0%</div>
+</div>
+<script src="js/util/jquery-1.11.1.min.js"></script>
+<script>
+    var $loading = $('#loading');
+    var $progress = $('#progress');
+    var prg = 0;
+
+    var timer = window.setInterval(function() {
+            if (prg >= 80) {
+        window.clearInterval(timer);
+        prg = 100
+    } else {
+        prg++
+    }
+    $progress.html(prg + '%');
+    console.log(prg)
+    }, 100);
+    window.onload = function(){
+        window.clearInterval(timer);
+        window.setInterval(function(){
+            if (prg >= 100) {
+            window.clearInterval(timer);
+            prg = 100;
+            $loading.hide();
+            window.location.href="index.html"
+        } else {
+            prg++
+        }
+        $progress.html(prg + '%');
+    }, 40);// 时间间隔缩短
+    }
+</script>
+</body>
+</html>

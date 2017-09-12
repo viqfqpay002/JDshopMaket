@@ -1,0 +1,267 @@
+html{
+    font-size: 12px;
+    font-family:  Arial,"微软雅黑","Helvetica Neue", Helvetica, sans-serif;
+}
+.nav .w{
+    border-bottom: 4px solid #333333;
+}
+ .nav-show{
+    top: 253px;
+}
+.nav-show .meun-item h4{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.product-about .detail-title {
+    padding-bottom: 20px;
+    padding-top: 19px;
+}
+.product-about .banner{
+    position: relative;
+    margin-bottom: 8.6rem;
+}
+.product-about .banner .banner-img{
+    width: 100%;
+    height:700px ;
+}
+.product-about .banner .banner-info{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+     color: #ffffff;
+}
+.product-about .banner-info .b-info{
+    height: 8.8rem;
+    background: url("../image/banner/productAboout/HUPPE_BG.png")no-repeat center;
+    margin-top: 2.75rem !important;
+    line-height: 2rem;
+    font-size: 14px;
+}
+.product-about-content{
+    width: 964px;
+    margin: 0 auto;
+}
+.p-a-1 .container ,.p-a-2 .container,.p-a-3 .container,.p-a-4 .container{
+    width: 100%;
+}
+.p-a-1{
+    margin-bottom: 6.6rem;
+    height: 47.4rem;
+}
+
+.p-a-1-list img{
+    width: 100%;
+    height: 100%;
+}
+.p-a-1 .p-a-1-left{
+    height: 47.4rem;
+    position: relative;
+}
+/*
+.p-a-1 .p-a-1-left .p-a-1-list{
+    position: absolute;
+    top: 6rem;
+    left: 5.6rem;
+    font-size: 14px;
+    line-height: 2rem;
+
+}*/
+/*.p-a-1-left .p-a-1-list .item{
+    padding-bottom: 3rem !important;
+}
+.p-a-1-left .item span{
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    top: 30px;
+    left:-0.6rem;
+    font-weight: 100;
+}
+.p-a-1-left .item:nth-of-type(4) span{
+    top:0.1rem;
+}
+.p-a-1-left .item:nth-of-type(5) span{
+    top: 0.1rem;
+}*/
+.p-a-2{
+    height: 98rem;
+}
+.p-a-2 .p-a-2-top{
+    height: 40rem;
+    position: relative;
+}
+.p-a-2 .p-a-2-bottom{
+    position: relative;
+}
+.p-a-2  img{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+}
+.p-a-2 .p-a-2-top .l2 img{
+    top: 40px;
+}
+.p-a-2 .p-a-2-bottom .img-t{
+    position: absolute;
+    top: 21rem;
+    right: 0;
+    z-index: 2;
+}
+.p-a-4{
+    margin-top: 9.2rem;
+    padding-bottom: 8.2rem;
+    height: 100rem;
+    overflow: hidden;
+
+}
+.p-a-4-b{
+    position: relative;
+
+}
+.p-a-4 .img-left-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-a-4 .img-left-1 .info{
+    position: absolute;
+    top:4.6rem;
+   left: 15.4rem;
+}
+.p-a-4 .img-right-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.p-a-4 .img-right-1 .info{
+    position: absolute;
+    bottom: 2.4rem;
+    left:-2rem;
+}
+.p-a-4 .img-right-2{
+    position: absolute;
+    top: 41.4rem;
+    right: 0;
+    /*z-index: 10;*/
+}
+.p-a-4 .img-right-2 .info{
+    position: absolute;
+    top:8rem;
+    left: -14rem;
+
+}
+.p-a-4 .img-left-2{
+    position: absolute;
+    top: 65rem;
+    left: 0;
+
+}
+.p-a-4 .img-left-2 .info{
+    position: absolute;
+    top: -2rem;
+    left:2.8rem;
+}
+/* 品牌商品 */
+.match{
+    height: 537px;
+    padding-top:100px ;
+    overflow:hidden;
+    position: relative;
+}
+.match>.link{
+    display: block;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    color: #999;
+}
+.match>.link:after{
+   height: 0;
+}
+.match .title{
+    font-size: 24px;
+}
+.match .title .pl ,.match .title .pr{
+    top: 15px;
+}
+.match .icon-list-hart{
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    background-position: center;
+}
+.match .list-info .icon-title-l{
+    background: url("../image/icon/product-about/CANADA.png") no-repeat;
+    padding-right: 3px;
+}
+.match .list-info {
+    line-height: 22px;
+}
+.match .product-list-box .product-list .item{
+    float: left;
+    width: 230px;
+    height: 324px;
+    text-align: center;
+    margin: 23px 3px 13px  3px;
+    position: relative;
+}
+.match .item .img-b{
+    height: 237px;
+    position:relative;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+.match  .img-b .img-b-list{
+    width: 230px;
+    height: 100%
+}
+  .img-b .img-b-list a{
+    width: 230px;
+    height: 237px;
+    display:table-cell;
+    vertical-align:middle
+}
+ .img-b .img-b-list li{
+    position: absolute;
+    display: none;
+}
+.img-b .img-b-list li:first-child{
+    display: block;
+}
+.img-b img{
+    position:static;
++position:relative;
+    top:-50%;left:-50%;
+    z-index: -1;
+}
+.product-list  .list-info .h2{
+    font-size: 14px;
+    line-height: 20px;
+}
+.product-list .icon-list-hart{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #ffffff;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius:32px;
+}
+.doct-color .slider-item-selected{
+    border:1px solid #999;
+}
+.list-footer{
+    margin-top: 30px;
+}
+.p-a-match .doct-color li{
+    width: 16px;
+    height: 16px;
+}

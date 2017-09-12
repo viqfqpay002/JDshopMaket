@@ -1,0 +1,528 @@
+/* banner */
+.title{
+    line-height: 50px;
+    letter-spacing: 8px ;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+/*.arrow{
+    width: 40px;
+    height: 67px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.banner .prev{
+    display: none;
+    left:100px;
+}*/
+.banner .flickity-page-dots{
+    width: auto !important;
+    text-align: center;
+    position: absolute !important;
+    bottom: 60px !important;
+    left: 50% !important;
+    transform:translate(-50%, -50%) !important;
+    -webkit-transform:translate(-50%, -50%) !important;
+    -ms-transform:translate(-50%, -50%) !important;
+    cursor: pointer;
+}
+.banner .flickity-prev-next-button svg{
+    display: none;
+}
+.banner .flickity-prev-next-button{
+    width: 40px;
+    height: 67px;
+    right: 200px!important;
+    background: url("../image/icon/KV_arrow-right.png")no-repeat center;
+}
+.banner .flickity-prev-next-button.previous{
+    left: 200px!important;
+	margin-top:-33px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);		/* IE 9 */
+    -webkit-transform: rotate(180deg);	/* Safari and Chrome */
+    -o-transform: rotate(180deg);		/* Opera */
+    -moz-transform: rotate(180deg);
+}
+.flickity-page-dots li{
+    background:transparent !important;
+    width: 16px !important;
+    height: 16px !important;
+    position: relative !important;
+    -moz-border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    border-radius: 30px !important;
+    border: 1px #808080 solid !important;
+    float: left !important;
+    margin-right: 10px !important;
+    opacity: 1 !important;
+}
+.flickity-page-dots .dot.is-selected{
+    width: 18px !important;
+    height: 18px !important;
+    border: none !important;
+    background: url("../image/icon/KV_spot02.png") no-repeat !important;
+}
+.flickity-page-dots .dot.is-selected:after{
+    content: "";
+}
+
+/*.dots{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    cursor: pointer;
+}
+.dots li{
+    color:transparent;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+    border: 1px #808080 solid;
+    float: left;
+    margin-right: 10px;
+}
+.dots .active{
+    width: 18px;
+    height: 18px;
+    border: none;
+    background: url("../image/icon/KV_spot02.png") no-repeat;
+}
+.dots .active:after{
+    content: "";
+}*/
+#al{
+   left: 50px;
+}
+#ar{
+    right: 50px;
+}
+.banner-item {
+    width: 100%;
+    height: 700px;
+    float: left;
+    position: relative;
+}
+.banner-item img{
+    width:100%;
+    height: 100%;
+}
+.banner-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.banner-info img{
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 品牌街 */
+/* list滚动*/
+.brands-scroll{
+    position: relative;
+}
+.brands .mini-title{
+    letter-spacing: 0 !important;
+}
+.brands-scroll .flickity-prev-next-button,.arrow-02{
+    width: 12px;
+    height: 34px;
+    position: absolute;
+    top: 60%;
+    right: 320px;
+    transform:translate(-50%, 0);
+    -webkit-transform:translate(-50%, 0);
+    -ms-transform:translate(-50%, 0);
+}
+.arrow-02.prev{
+    left: 320px;
+    display: none;
+}
+.arrow-02 img{
+    width: 100%;
+}
+.scroll-list{
+    width: 100%;
+    height: 268px;
+    overflow: hidden;
+    /*display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap*/
+}
+.scroll-list .scroll-item{
+    width: 206px;
+    height: 268px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+.scroll-item img{
+    width: 100%;
+    height: 100%;
+}
+.icon-right-mini{
+    width: 16px;
+    height:16px ;
+    margin-top: -2px;
+}
+/* main-banner */
+.main-banner{
+    width: 100%;
+    height: 440px ;
+    position: relative;
+    padding-bottom: 40px;
+}
+ .main-info{
+     position: absolute;
+     left: 105px;
+     top: 64px;
+}
+ .main-info .link-more{
+     position: absolute;
+     bottom: 5px;
+     left: 144px;
+ }
+ /* 场景－客厅*/
+.parlor{
+    width: 100%;
+}
+.parlor-1{
+    height: 534px;
+    padding-bottom: 40px;
+}
+.parlor-1 .product-big{
+    float: left;
+    width: 615px;
+}
+.product-big{
+    position: relative;
+}
+.product-big .product-info{
+    position: absolute;
+    top: 216px;
+    left: 134px;
+}
+.product-info .link-more{
+    position: absolute;
+    right: 0;
+    margin: 9px 0
+}
+.product-info h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.product-info h2 span{
+    font-weight: 100;
+}
+.parlor-1 .product-mini{
+    float: right;
+    width: 515px;
+}
+.parlor-1 .product-mini .product-info{
+    bottom: 20px;
+}
+.product-mini{
+    height: 100%;
+    position: relative;
+}
+.product-mini .product-info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.product-mini .product-info h2{
+    text-align: right;
+}
+.parlor-2{
+    height: 560px;
+}
+.parlor-2 .product-mini{
+    width: 472px;
+    float: left;
+}
+.parlor-2 .product-mini .product-info{
+    bottom: 70px;
+}
+.parlor-2 .product-big{
+   /* width: 680px;*/
+    float: right;
+}
+.parlor-2 .product-big .product-info{
+    top: 195px;
+   left: 236px;
+}
+/* 热卖商品 */
+.hot-product{
+    width: 100%;
+    position: relative;
+}
+.hot-product .arrow-03{
+    width: 12px;
+    height: 34px;
+    position: absolute;
+    top: 50%;
+    right: 320px;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.arrow-03.prev{
+    display: none;
+    left: 320px;
+}
+.hot-list-box{
+    margin: 0 auto;
+    width: 100%;
+    height: 540px;
+    text-align: center;
+}
+.hot-list-box .hot-list{
+    width: 792px;
+    float: left;
+    /*display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap*/
+}
+.hot-list .hot-list-item{
+    width: 376px;
+    height: 260px;
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+
+.hot-list .hot-list-item>a{
+    width: 376px;
+    height: 260px;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+
+}
+.hot-list-box img{
+    height: 260px;
+    display: inline-block;
+    margin: 0 auto;
+    transition: transform 1s;
+}
+.hot-list-box .hot-list-big{
+    width: 376px;
+    position: relative;
+    float: right;
+    padding: 5px 0;
+    overflow: hidden;
+}
+.hot-list-box .hot-list-big img{
+    width: 100%;
+    margin: 0 auto;
+    height: 518px;
+}
+.hot-list-box  .img-font{
+    width: 224px ;
+    height: 52px;
+    background:rgba(255,255,255,0.9);
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    transform:translate(-50%, 0);
+    -webkit-transform:translate(-50%, 0);
+    -ms-transform:translate(-50%, 0);
+    padding: 32px 0;
+    opacity: 0;
+    color: #333
+}
+.hot-list-box .hot-list-item .img-font{
+    top: 50%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+.img-font h4{
+    font-size: 24px;
+}
+.img-font h4 span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.hot-list-item img,.hot-list-big img{
+    -o-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.hot-list-big:hover {
+    border: 1px solid #333333;
+}
+.hot-list-box .hot-list-item:hover{
+    border: 1px solid #333333;
+}
+.hot-list-big:hover img ,.hot-list-box .hot-list-item:hover img{
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.hot-list-big:hover .img-font ,.hot-list-box .hot-list-item:hover .img-font{
+    transition: 0.8s;
+    opacity: 0.8;
+}
+/*  专题精选 */
+.selection{
+    padding-top: 40px;
+}
+.selection .main-banner{
+    height: 530px;
+    position: relative;
+   /* padding: 0;*/
+}
+.selection .main-banner img{
+    width: 100%;
+    height: 100%;
+}
+.selection .b1 .main-info{
+    left: 280px ;
+    top: 90px;
+}
+.selection .b1 .link-more {
+    left: 20px;
+    top: 80px;
+}
+.selection .b2{
+    /*padding: 0;*/
+    position: relative;
+}
+.selection .b2 .main-info{
+      left: 68%;
+}
+.selection .b2 .link-more{
+    top: 160px;
+    left:8px;
+}
+.selection-list-box{
+    height: 640px;
+}
+.selection-list-left{
+    float: left;
+}
+.selection-list-box .b3{
+    width: 510px;
+    margin-right: 40px;
+    position: relative;
+}
+.b3 .main-info{
+    top: 158px;
+}
+.b3 .link-more{
+    top: 70px;
+    left: 60px;
+}
+.selection-list-right{
+    width: 620px;
+    float: right;
+}
+.selection-list-right .b4{
+    margin-bottom: 40px;
+    position: relative;
+}
+.b4 .main-info{
+    width: 400px;
+    position: absolute;
+    top: 94px;
+    left: 200px;
+}
+.b4 .main-info .js-video{
+    width: 54px;
+    height: 54px;
+    margin-right: 20px;
+    float: left;
+    cursor: pointer;
+}
+.b4 .main-info .info-w dt{
+    font-size: 24px ;
+    font-weight: inherit;
+}
+.b4 .main-info .info-w dd{
+    font-size: 16px ;
+}
+.selection-list-right .b4,.selection-list-right .b5{
+    height: 284px;
+}
+.b4 img {
+    width: 100%;
+    height: 100%;
+}
+.selection-list-right .b5{
+    position: relative;
+}
+.selection-list-right .b5 .main-info{
+    top: 32px;
+    left: 150px;
+}
+.selection-list-right .b5 .link-more{
+    left: 50px;
+    top: 50px;
+    color: #ffffff;
+    border-color:#ffffff ;
+}
+.selection .b6{
+    padding: 60px 0 40px 0;
+    position: relative;
+}
+.b6 .main-info{
+    left: 740px;
+    top: 50%;
+    transform:translate(0, -50%);
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+}
+.b6 .link-more{
+    top: 50px;
+    left: 80px;
+    color: #ffffff;
+    border-color:#ffffff ;
+
+}
+.selection .b6,.selection .b7{
+    height: 308px;
+}
+.b7 img{
+    height: 100%;
+}
+.b7 .main-info{
+    left: 682px;
+    top: 76px;
+}
+.b7 .link-more{
+    top: 96px;
+    left: 5px;
+ /*   color: #ffffff;
+    border-color:#ffffff ;*/
+}
+.selection .link:after ,.scene .link:after ,.main-banner .link:after ,.banner .link:after{
+    height: 0px;
+}

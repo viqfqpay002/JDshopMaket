@@ -1,0 +1,78 @@
+@media all and (max-width: 990px) and (min-width: 320px){
+
+    .w{width: 100%}
+    .guide-right,.mini-w {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .guide-banner,.banner-img  {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .guide-banner{
+        width: 100% !important;
+    }
+    .product-w{
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: 120px;
+        overflow: inherit;!important;
+    }
+    .product-w .banner-img{
+        overflow: inherit !important;
+    }
+   .banner-img .product-banner-info{
+       height: auto;
+       background: none;
+       bottom: -12.4rem ;
+    }
+   .product-banner-info .intro{
+       font-size: 1rem;
+       color: #151515 !important;
+       padding: 0 1.4rem !important;
+       line-height: 1.6rem !important;
+   }
+    .product-logo .logo-list .item{
+        width: 100%;
+    }
+   .intro .link{
+       display: block;
+   }
+    .select-List{
+        width: 100%;
+        padding-top: 1.6rem !important;
+    }
+    .productList1 .select-List{
+        padding-top: 8.5rem !important;
+    }
+    .select-List .product-w{
+        margin-top:0 !important;
+    }
+    .search-result{
+        padding:0 !important ;
+    }
+    .search-result>.product-w{
+        margin-top: 10.6rem !important;
+    }
+    .search-result .title-info{
+        font-size: 1rem
+    }
+    .select-title{
+        height: 3.4rem !important;
+        background: #f6f6f6;
+        line-height: 3.4rem ;
+        padding: 0 .8rem!important;
+    }
+    .select-List .product-total{
+        padding-right: .8rem;
+        position: absolute;
+        right: 0;
+        font-size: 1rem;
+    }
+    .select-title .js-select-icon{
+        font-size: 1rem;
+    }
+}

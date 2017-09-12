@@ -1,0 +1,362 @@
+@media all and (max-width: 1820px) {
+    .brands-scroll .arrow-02,.hot-product .arrow-03{
+        right: 1.6rem;
+    }
+    .arrow-02.prev{
+        left: 1.6rem;
+    }
+}
+@media all and (max-width: 990px) and (min-width: 320px){
+  /* banner */
+  .banner{
+      margin-top: 9.25rem;
+      height: 29.5rem;
+  }
+  .banner .banner-item {
+      width: 100%;
+      height: 29.5rem;
+  }
+  .banner-item img{
+      max-width: 100%;
+      max-height: 100%;
+  }
+    .banner .flickity-prev-next-button{
+        display: none;
+    }
+  .banner-item .banner-info h3 {
+      padding-top: 2rem;
+      font-size: 2rem;
+      line-height: 4.2rem;
+
+  }
+  .banner-item .banner-info p{
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      border-top:1px solid #333333;
+  }
+ .banner .flickity-page-dots{
+     bottom: 2rem !important;
+ }
+ .banner .flickity-page-dots li{
+       width: 1rem !important;
+       height: 1rem !important;
+   }
+ .flickity-page-dots .dot.is-selected{
+        width: 1rem !important;
+        height: 1rem !important;
+        border: 1px solid #FFFFFF !important;
+        background: url("../../image/mobile/icon/dot.png")no-repeat center !important;
+        background-size: 120% !important;
+    }
+ /* 引导入口 */
+    .enter-in{
+        padding: 1.2rem 0 2rem 0;
+        text-align: center;
+    }
+    .enter-in .icon{
+        fill: #333 !important;
+        stroke: #E6E6E6 !important;
+        width: 2.8rem;
+        height: 2.6rem;
+        padding: 5px  0;
+    }
+    .enter-in li{
+        margin-bottom: 1.6rem !important;
+    }
+    .enter-in p{
+        font-size: 1rem;
+    }
+
+ /* 品牌街 */
+    .product{
+        padding: .8rem 0 0 0;
+    }
+    #brands{
+        padding: 0 .8rem;
+    }
+    .brands-scroll{
+        background: #f6f6f6;
+        padding-bottom: 2rem;
+        height: auto !important;
+    }
+    .scroll-list{
+        width: 100%;
+        height:auto;
+    }
+    .scroll-list .scroll-item{
+        width: 7rem !important ;
+        height: 9.4rem !important;
+        margin-left: .3rem;
+        margin-right: .3rem;
+    }
+    .brands-scroll .arrow-02, .brands-scroll .flickity-prev-next-button{
+        display: none;
+        width: .42rem;
+        position: absolute;
+        top: 40%;
+        right: .42rem;
+    }
+    .arrow-02.prev{
+        left: .8rem;
+    }
+    .arrow-02 img{
+        width: 100%;
+    }
+  /* mini-banner*/
+    .main-banner{
+        width: 100%;
+        height: 11.6rem;
+        padding-bottom: .8rem;
+    }
+    .main-banner .big-img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-banner .main-info{
+        width: 42%;
+        top: .8rem;
+        left: 1.2rem ;
+    }
+    .parlor-1,.parlor-2{
+        width: auto;
+        height: auto;
+    }
+    .parlor-1 .product-big .product-info .link-more ,.parlor-2 .product-big .product-info .link-more{
+        left: 0;
+    }
+    .product-mini{
+        width: 100% !important;
+    }
+    .product-big{
+        width: 100% !important;
+    }
+  .product-big ,.parlor-1 .product-mini,.parlor-2 .product-mini{
+        height: 16.2rem;
+        padding-bottom: .8rem !important;
+    }
+    .product-big img ,.product-mini img{
+        width: 100%;
+        height: 100%
+    }
+    .product-big .product-info{
+        top: 3.4rem !important;
+        left: 2rem !important;
+    }
+    .product-info h2 ,.product-info span{
+        font-size: 1rem !important;
+    }
+    .product-mini .product-info{
+        top: 5.4rem;
+        right: 7rem;
+    }
+    .parlor-2 .product-mini .product-info{
+        top: 2rem;
+        right: 5rem;
+    }
+/* hot */
+    .hot-list-box{
+        height: 31.66rem;!important;
+        margin: 0 !important;
+        overflow: hidden;
+    }
+    .hot-list{
+        width: 100%;
+        height: 31.66rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        -webkit-transform:translate(-50%, -50%);
+        -ms-transform:translate(-50%, -50%);
+    }
+    .hot-list .hot-list-item{
+        display:block ;
+        margin: 0 auto;
+        width: 250px; !important;
+        height: 31.66rem !important;
+        background: #FFFFFF;
+    }
+    .hot-list .hot-list-item>a{
+        width: 250px;
+        height: 25.8rem !important;
+    }
+    .hot-list .l4 img{
+        width: 137px !important ;
+    }
+    .hot-list-item img{
+        display: block;
+        margin: 0 auto;
+        width: 100% !important;
+        height: auto!important;
+    }
+ /*   .hot-list-item.l5 img{
+        width: auto !important;
+        height: 270px !important;
+    }*/
+    .hot-list-item .img-font{
+        z-index: 0;
+        opacity: 1;
+        top: 340px !important;
+        background: transparent;
+    }
+    .hot-product .arrow-03 img{
+        width: 50%;
+    }
+    .hot-product .arrow-03{
+        top: 50%;
+        right:0;
+    }
+    .arrow-03.prev {
+        left: .8rem;
+    }
+    .selection .main-banner .main-info{
+        left: 4.6rem;
+        top: 2.6rem ;
+        transform:translate(0, 0) !important;
+        -webkit-transform:translate(0, 0) !important;
+        -ms-transform:translate(0, 0) !important;
+    }
+
+    /* 大图 */
+    .selection{
+        padding-top: 0 !important;
+    }
+    .selection .main-banner{
+        height: 15rem !important;
+        overflow-x: hidden !important;
+    }
+    .selection .b1 .main-info .link-more{
+        left: 0;
+        top: 2.5rem;
+    }
+    .main-info h3{
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height:2rem;
+    }
+    .b2 .main-info{
+        width: 16.5rem!important;
+        height: 5.4rem !important;
+        left: 10rem !important;
+    }
+    .b2 .main-info .link-more{
+        top: 4.2rem !important;
+        left: 3.4rem !important;
+    }
+    .b2 .main-info img{
+        width: auto !important;
+    }
+    .selection-list-box{
+        height: 15rem !important;
+        overflow: inherit;
+    }
+    .selection-list-right {
+        width: 100% !important;
+        overflow: inherit;
+    }
+    .b4,.b3,.b5{
+        width: 100% !important;
+        height: 11.4rem !important;
+        padding-bottom: .8rem ;
+        margin: 0 !important;
+        overflow: inherit;
+    }
+    .b3 .b3-img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .b3 .main-info{
+        top: 3.6rem !important;
+        left: 3.4rem !important;
+    }
+    .b3 .main-info img{
+        width: 40%;
+    }
+    .b3 .link-more{
+        top: 0.6rem;
+        left: 6.4rem;
+    }
+    .b4 .main-info{
+        top: 3.8rem;
+        left: 7rem;
+    }
+    .b4 .main-info img{
+        width: 3.6rem !important;
+        height: 3.6rem !important;
+    }
+    .b4 .main-info .info-w dt{
+        font-family: PingFangSC-Regular;
+        font-size: 1.2rem;
+        color: #151515;
+        letter-spacing: -0.6px;
+        line-height: 1.6rem;
+        font-weight: inherit;
+    }
+    .b4 .main-info .info-w dd{
+        font-size: 1rem;
+        font-weight: inherit;
+    }
+    .b5 .main-info{
+        top: 2.5rem !important;
+        left: 2.9rem !important;
+    }
+    .b5 .main-info img{
+        width: 9rem;
+        height: 3.25rem;
+    }
+    .b5 .main-info .link-more{
+        left: 0 !important;
+        top: 2.2rem !important;
+    }
+    .b5 img{
+        width: 100%;
+
+    }
+    .selection  .b6, .selection  .b7{
+        height: 6.6rem !important;
+        overflow-x: hidden !important;
+    }
+    .selection .b6{
+        padding: 1.6rem 0 .8rem 0;
+    }
+    .b6 .main-info,.b7 .main-info{
+        width: 21.6rem !important;
+        height: 5rem;
+        left: 0 !important;
+        top: 2.6rem !important;
+    }
+    .b6 .main-info .link-more {
+        right: -128px;
+        top: -25px;
+    }
+    .b6 .main-info img ,.b7 .main-info img{
+        position: absolute;
+        left: 1.6rem;
+        width: 12rem;
+        height: 2.5rem;
+    }
+    .b7 .main-info {
+        left: 0 !important;
+        top: 1.4rem !important;
+    }
+    .b7 .main-info .link-more {
+        left: 3.6rem ;
+        top: -2rem !important;
+        border-color:#FFFFFF !important ;
+        color: #FFFFFF !important;
+    }
+    .b7 .main-info img{
+        width: 10rem !important;
+        height: auto !important;
+        position: absolute;
+        right: -11.8rem !important;
+    }
+    .hid{
+        width: 100% ;
+        height: 9.4rem;
+        position: absolute;
+        z-index: 9999;
+    }
+
+    }

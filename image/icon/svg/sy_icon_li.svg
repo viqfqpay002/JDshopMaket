@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>sy_icon_li</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index_mobile_menu" transform="translate(-103.000000, -550.000000)">
+            <g id="sy_icon_li" transform="translate(103.000000, 550.000000)">
+                <image id="Bitmap" x="0" y="0" width="17" height="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAIAAADgN5EjAAAABGdBTUEAA1teXP8meAAAAR1JREFUOBFjfPXq1aJFi9asWfP7928GIgALC0tISEh8fDxjd3e3oKBgXFwcKysrERoZ/vz5s3Dhwo8fPzKYm5sDbftPCvj586elpSUT0AygA4ixDa6GjY3t169fTHA+qYxRnYRCbIiFEAcHx48fPwh5CkX+27dvXFxcjP39/Z8+fYqOjgYaAZHn5+fn4eEBst+/fw9UhKKJgQGYaJcsWSIgIMAITOqrV68G5jK4ze3t7VpaWocPH66srBQWFkbTyc7ODsxlYWFhDMiZ5NatWxEREUCRDRs2mJqaHjlyBFkWjQ2yE25qT0+PjIzMly9fZs6cCczumpqacClMBiI+//79C3T2pUuXgPlu+/bt+LWBDEJ2A1DPzp07kUXwsAEFJvyE99/XnQAAAABJRU5ErkJggg=="></image>
+                <text id="礼" font-family="SourceHanSansCN-Normal, Source Han Sans CN" font-size="10" font-weight="normal" fill="#333333">
+                    <tspan x="4" y="11">礼</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

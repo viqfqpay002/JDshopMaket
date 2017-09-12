@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>sy_icon_scj</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index_mobile" transform="translate(-275.000000, -88.000000)" stroke="#333333">
+            <g id="Group" transform="translate(276.000000, 89.000000)">
+                <path d="M2.05685533,9.15147301 C1.76892832,8.93826595 1.50436787,8.6952991 1.26771963,8.42711806 C0.478727195,7.53299437 0,6.35859598 0,5.07238488 C0,2.27098406 2.27098406,0 5.07238488,0 C6.75770552,0 8.25105685,0.821918334 9.17346201,2.08677814 C10.0958672,0.821918334 11.5892185,0 13.2745391,0 C16.07594,0 18.346924,2.27098406 18.346924,5.07238488 C18.346924,6.35084325 17.8739506,7.51883275 17.0934377,8.41091936 C17.1153722,8.41556502 17.1267344,8.41800043 17.1267344,8.41800043 L9.16967688,16 L2.05685533,9.15147301 Z" id="sy_icon_scj"></path>
+            </g>
+        </g>
+    </g>
+</svg>

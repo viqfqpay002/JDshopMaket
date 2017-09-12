@@ -1,0 +1,122 @@
+/* footer */
+.footer{
+    width: 100%;
+    margin-top: 140px;
+    border-top:1px solid #333333;
+    padding-top: 80px;
+    color: #000000;
+}
+.footer-up{
+    height: 140px;
+    padding-bottom: 84px;
+}
+.footer-up .partners>div{
+    float: left;
+    margin-right: 108px;
+}
+.partners li{
+    line-height: 24px;
+}
+
+.footer-up h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-up .erchant>div{
+    line-height: 50px;
+}
+.footer-user-info {
+    margin-left: 840px;
+}
+.footer-user-info .tel{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-user-info .time{
+    color: #333333 !important;
+}
+.footer-user-info .tel .icon{
+    float: left;
+   /* padding-right: 20px;*/
+}
+.footer-user-info .email{
+    border-bottom: 1px solid #333333;
+    padding-bottom: 16px;
+    font-size: 14px;
+}
+/*.footer-user-info .email .icon{
+    padding-right: 20px;
+}*/
+.contact{
+    border-top: 1px solid #E1E1E1;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.contact li{
+    line-height: 28px;
+}
+.contact .ad1{
+    width: 302px;
+    margin-right: 190px;
+}
+.contact .ad1,.contact .ad2{
+    float: left;
+}
+.contact .ad1 strong,.contact .ad2 strong{
+   letter-spacing: 1px;
+}
+.contact .ad1 span,.contact .ad2 span{
+    text-indent:1em;
+    display: inline-block;
+}
+.ad1 li:nth-of-type(1) span, .ad2 li:nth-of-type(1) span{
+    text-indent:0.9em;
+}
+ .ad1 li:nth-of-type(2) span, .ad2 li:nth-of-type(2) span{
+    text-indent:-0.7em;
+}
+.ad1 li:first-child strong,
+ .ad2 li:first-child strong{
+     letter-spacing: 6px;
+ }
+.ad1 li:nth-of-type(2) strong,
+.ad2 li:nth-of-type(2) strong{
+    letter-spacing: 25px;
+}
+.company{
+    margin-top: 70px;
+    height: 60px;
+    background: #f8f8f8;
+    line-height: 60px;
+    text-align: center;
+}
+.bg{
+    display: none;
+    width: 62px;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    right: 10px
+}
+.bg span{
+    display: block;
+    height: 62px;
+    border: 1px solid #333;
+    font-size: 16px;
+    color: #333333;
+    background: rgba(255,255,255,1);
+}
+.bg span:first-child{
+    border-bottom: none;
+}
+.bg span .icon{
+    width: 28px;
+    height: 22px;
+    margin: 8px auto 0 auto;
+    display: block;
+}
+.tab-ad .active{
+    color: #FFFFFF;
+    background: #333333;
+}

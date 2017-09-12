@@ -1,0 +1,110 @@
+.form-box{
+    background: #F6F6F6;
+    font-size: 14px;
+    padding-bottom: 120px;
+
+}
+.form-title{
+    line-height: 75px;
+    height: 75px;
+    border-bottom: 2px solid #333333;
+}
+.form-content{
+    padding-top: 76px;
+    overflow: hidden;
+}
+.form-content h1{
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 400;
+}
+.form-content h1 .link{
+    font-size: 12px;
+}
+.form-content .input-group{
+    padding-top: 15px;
+}
+.form-content input[type="text"],.form-content input[type="password"]{
+    display: block;
+    width: 320px;
+    height: 32px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border: #dddddd;
+}
+.form-content input[type="tel"]{
+    width: 180px;
+    height: 34px;
+    padding-left: 5px;
+    border: #dddddd;
+}
+.form-content .j-d{
+    color: #151515;
+}
+.fast-login .title{
+    font-size: 14px;
+    color: #999999;
+}
+.fast-login .w116{
+    top: 10px ;
+}
+.webchat{
+    width: 180px;
+    margin: 0 auto;
+}
+.webchat img{
+  display: inline-block;
+    margin-left: 30px;
+}
+.input-button{
+    padding: 32px 0 ;
+    position: relative;
+}
+.input-button .link-more {
+    position: relative;
+    width: 150px;
+    margin: 0;
+    background: #333333;
+}
+
+.login-content{
+    float: left;
+}
+.login-content .for-password{
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    margin-top: -4%;
+}
+.register-content{
+    float: right
+}
+.register-content .input-group{
+    position: relative;
+}
+ .verification{
+     line-height: 32px;
+     height: 32px;
+    position: absolute;
+    right: -140px;
+    top: -10px;
+}
+.verification-box .info{
+    position: absolute;
+    bottom:-20px;
+    left: 0
+}
+ .verification-input{
+    border:1px solid #999;
+}
+.login-content .input-group{
+    position: relative;
+}
+
+.border-img{
+    margin-left: 80px;
+    display: inline-block;
+    width: 48px;
+    height: 580px;
+    background: url("../image/icon/login/border_03.png") no-repeat;
+}
